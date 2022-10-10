@@ -1,0 +1,33 @@
+.list {
+  color: #fff;
+  width: 300px;
+  margin: 20px auto;
+  height: 50px;
+  background-color: #bf07ac;
+  border-radius: 5px;
+  display: flex;
+}
+
+.list input {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  /* transition: ease-in-out; */
+  margin-left: 0.4rem;
+}
+.list input:focus {
+  outline: none;
+}
+.list span {
+  font-size: 0.56rem;
+
+  margin: auto;
+}
+
+.fa-trash {
+  margin: auto 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
